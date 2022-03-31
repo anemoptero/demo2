@@ -82,3 +82,9 @@ return delete success
 
 404: 找不到方法
 return not found
+
+
+Docker 啟動指令說明
+使用 cd Dockerfile存在的專案路徑中
+使用 docker build -t demo-app . 產生對應的Image
+使用 docker run -e DATABASE_SERVER=jdbc:h2:mem:tmpdb -p 8080:8080 demo-app 啟動容器及服務，設定 DATABASE_SERVER 環境變數，並宣告映射 8080 port
