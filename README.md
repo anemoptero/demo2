@@ -8,7 +8,6 @@
 
 ### Parameter
 - none
-example: http://localhost:8080/book/search
 
 ### Response
 
@@ -41,7 +40,6 @@ return not found
     - `publishers (string, required)` 出版商
     - `publicationDate (date, required)` 出版日期
     - `pricing (int, required)` 定價
-example: http://localhost:8080/book/add
 
 ### Response
 200: 執行成功
@@ -62,7 +60,6 @@ return not found
     - `publishers (string, required)` 出版商
     - `publicationDate (date, required)` 出版日期
     - `pricing (int, required)` 定價
-example: http://localhost:8080/book/update
 
 ### Response
 200: 執行成功
@@ -78,7 +75,6 @@ return not found
 ### Parameter
 - Route
     - `isbn (string, required)` ISBN
-example: http://localhost:8080/book/update
 
 ### Response
 200: 執行成功
