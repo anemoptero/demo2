@@ -85,6 +85,6 @@ return not found
 
 
 ## Docker 啟動指令說明
-1. 使用 cd Dockerfile存在的專案路徑中
-2. 使用 docker build -t demo-app . 產生對應的Image
+1. 使用 cd 將當前路徑轉至 Dockerfile 所在路徑
+2. 使用 docker build -t demo-app . 產生對應的 Image
 3. 使用 docker run -e DATABASE_SERVER=jdbc:h2:mem:tmpdb -p 8080:8080 demo-app 啟動容器及服務，設定 DATABASE_SERVER 環境變數，並宣告映射 8080 port
