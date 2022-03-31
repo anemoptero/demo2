@@ -1,0 +1,19 @@
+2022-03-30 21:37:06 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE BOOK(
+	NAME VARCHAR(20) PRIMARY KEY,
+	AUTHOR VARCHAR(20) NOT NULL,
+	TRANLATOR VARCHAR(20),
+	ISBN VARCHAR(18) NOT NULL,
+	PUBLISHERS VARCHAR(20) NOT NULL,
+	PUBLICATION_DATE DATE NOT NULL,
+	PRICING INT NOT NULL,
+)[*]"; expected "identifier"; SQL statement:
+CREATE TABLE Book(
+	name VARCHAR(20) PRIMARY KEY,
+	author VARCHAR(20) NOT NULL,
+	tranlator VARCHAR(20),
+	isbn VARCHAR(18) NOT NULL,
+	publishers VARCHAR(20) NOT NULL,
+	publication_date date NOT NULL,
+	pricing Int NOT NULL,
+) [42001-200]
